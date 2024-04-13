@@ -68,7 +68,7 @@ div {
   width: 40vw;
   border-radius: 15px;
 }
-
+/* Toda a seção de compras, define a flexbox e o alinhamento das caixas */
 .compra {
   width: 90vw;
   display: flex;
@@ -76,7 +76,7 @@ div {
   align-items: center;
   justify-content: center;
 }
-
+/* Grid dos agentes de valorant */
 .classes-valorant-parent {
   width: 90vw;
   display: grid;
@@ -101,9 +101,11 @@ h1 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
 }
+/* define margem a esquerda pra todos os h3 que estão dentro da caixinha de agentes, fiz isso pra alinhar os títulos */
 .classes-valorant-info > h3 {
   margin-left: 1rem;
 }
+/* Configurações do rodapé da página */
 footer {
   justify-content: space-between;
   display: flex;
@@ -111,21 +113,23 @@ footer {
   background-color: #151515;
   width: 100vw;
 }
-
+/* alinha o símbolo das classes dos agentes e o título*/
 .classes-valorant-info {
   width: 12vw;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+/* tamanho e posição dos ícones */
 .icones-agentes {
   margin-left: 1rem;
   width: 50px;
 }
+/* tamanho da seção agentes, para ficar centralizado */
 .agentes {
   width: 90vw;
 }
+/* Essa seção existe pra ficar com uma cor diferente e alinhar os elementos*/
 .Seçao2 {
   background-color: #b78460;
   width: 100vw;
@@ -133,12 +137,15 @@ footer {
   margin-bottom: 0;
   justify-content: center;
 }
+/* Margem das listas  */
 ul {
   margin: 2rem;
 }
+/*tamanho da seção dicas, para ficar centralizado */
 .dicas {
   width: 90vw;
 }
+/* Essa seção existe pra ficar com uma cor diferente e dar mais vida a página */
 .block {
   width: 100%;
   display: flex;
@@ -147,12 +154,14 @@ ul {
   align-items: center;
   padding: 2rem 0;
 }
+/* definindo o tamanho e o alinahmento da seção */
 .image-container-dicas {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90vw;
 }
+/* Definindo tamanho e borda  */
 .movimenta {
   width: 40%;
   border-radius: 15px;
@@ -191,7 +200,7 @@ ul {
   transition: left 0.5s;
 }
 
-/** Modo escuro */
+/*Modo escuro*/
 .dark header {
   background-color: #1c1c1c;
 }
@@ -207,4 +216,11 @@ ul {
 .dark .block {
   color: #d8d1cd;
   background-color: #1c1c1c;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  color: #fa4454;
 }
