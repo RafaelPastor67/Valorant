@@ -208,3 +208,10 @@ ul {
   color: #d8d1cd;
   background-color: #1c1c1c;
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  color: #fa4454;
+}
